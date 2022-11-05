@@ -23,7 +23,7 @@ public class excercise {
         passwordInput.sendKeys("Haslo123");
         submitButton.click();
         WebElement errorBox = driver.findElement(By.cssSelector(".error-message-container"));
-
+        //https://learngitbranching.js.org/?locale=pl
         driver.quit();
     }
 
