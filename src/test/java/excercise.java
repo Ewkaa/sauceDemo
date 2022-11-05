@@ -23,7 +23,7 @@ public class excercise {
         passwordInput.sendKeys("Haslo123");
         submitButton.click();
         WebElement errorBox = driver.findElement(By.cssSelector(".error-message-container"));
-        Assertions.assertEquals("Epic sadface: Username is required", errorBox.getText());
+
         driver.quit();
     }
 
